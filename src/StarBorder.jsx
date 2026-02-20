@@ -2,7 +2,7 @@ import React from 'react';
 import './StarBorder.css';
 
 const StarBorder = ({
-  as: Component = 'div',
+  as: As = 'div',
   className = '',
   color = 'white',
   speed = '6s',
@@ -11,12 +11,14 @@ const StarBorder = ({
   style,
   ...rest
 }) => {
-  return (
-    <Component
-      className={`star-border-container ${className}`}
-      style={{ padding: `${thickness}px 0`, ...(style || {}) }}
-      {...rest}
-    >
+  return React.createElement(
+    As,
+    {
+      className: `star-border-container ${className}`,
+      style: { padding: `${thickness}px 0`, ...(style || {}) },
+      ...rest,
+    },
+    <>
       <div
         className="border-gradient-bottom"
         style={{
@@ -32,7 +34,7 @@ const StarBorder = ({
         }}
       />
       <div className="inner-content">{children}</div>
-    </Component>
+    </>
   );
 };
 

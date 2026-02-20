@@ -4,22 +4,26 @@ import './StarBorder.css';
 import { PRODUCTS, findProductBySlug } from './productsData.js';
 
 export default function App() {
-  const [showDetails, setShowDetails] = useState(false);
   const [showIntro, setShowIntro] = useState(true);
   const [product, setProduct] = useState(null);
 
   useEffect(() => {
-    const oldSlug = '/HUMICID';
-    const newSlug = '/HI%20POWER';
-    const current = window.location.pathname;
-    if (current === oldSlug || current === '/' || current === '') {
-      window.history.replaceState(null, '', newSlug);
-    }
-    const rawPath = window.location.pathname.replace(/^\//, '');
-    const found = findProductBySlug(rawPath);
+    const DEFAULT_ALIAS = 'Kalpamas';
+    const DEFAULT_ALIASES = new Set(['Kalpamas', 'Kalpam', 'KALPAM', 'kalpam']);
+    const current = window.location.pathname || '/';
+    const rawPath = current.replace(/^\//, '');
+    const effectivePath = rawPath || DEFAULT_ALIAS;
+    const found = findProductBySlug(effectivePath);
     setProduct(found);
-    const desiredSlug = `/${encodeURIComponent(found.brand)}`;
-    if (window.location.pathname !== desiredSlug) {
+    let desiredSlug = current;
+    if (!rawPath) {
+      desiredSlug = `/${DEFAULT_ALIAS}`;
+    } else if (DEFAULT_ALIASES.has(rawPath)) {
+      desiredSlug = `/${DEFAULT_ALIAS}`;
+    } else {
+      desiredSlug = `/${encodeURIComponent(found.brand)}`;
+    }
+    if (current !== desiredSlug) {
       window.history.replaceState(null, '', desiredSlug);
     }
     document.title = `${found.brand} — Product Information`;
@@ -190,9 +194,14 @@ export default function App() {
                 <span className="text-lg">🏭</span>
               </div>
               <div className="flex-1">
-                <div className="text-[#d9c98f] text-sm">Manufactured and Marketed By:</div>
-                <div className="text-white/90 text-sm sm:text-base font-semibold">SAKASH AGRO TECH PVT. LTD.</div>
-                <div className="text-white/90 text-sm sm:text-base">Site No 25,Survey No. 121,Yelachaguppe Village, Gridpalya, Gokula Road, Tavarekere Hobli, Bangalore South - 562130</div>
+                <div className="text-[#d9c98f] text-sm">Imported And Marketed By:</div>
+                <div className="Comp text-white/90 text-sm sm:text-base font-semibold">Amba Agro Company</div>
+                <div className="text-white/90 text-sm sm:text-base">Shop No.3, Sy.No.90/1</div>
+                <div className="text-white/90 text-sm sm:text-base">Kamat Layout, Bappa Grama Post Office</div>
+                <div className="text-white/90 text-sm sm:text-base">Machohalli, Bengaluru, Bengaluru Urban</div>
+                <div className="text-white/90 text-sm sm:text-base">Karnataka - 560091</div>
+                <div className="text-white/90 text-sm sm:text-base">Phone: 9380676778</div>
+                <div className="text-white/90 text-sm sm:text-base">E-mail: ambaagro76@gmail.com</div>
               </div>
             </div>
           </StarBorder>
@@ -203,7 +212,7 @@ export default function App() {
               </div>
               <div className="flex-1">
                 <div className="text-[#d9c98f] text-sm">Customer Care</div>
-                <div className="text-white/90 text-sm sm:text-base">+91 80887 73868</div>
+                <div className="text-white/90 text-sm sm:text-base">9380676778</div>
               </div>
             </div>
           </StarBorder>

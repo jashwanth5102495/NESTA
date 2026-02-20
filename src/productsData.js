@@ -2,311 +2,245 @@ export const GAZETTE = 'SO:3922(E), Dated: 12th September ,2024';
 
 export const PRODUCTS = [
   { 
-    brand: 'HI POWER', 
-    specification: '(2) Potassium Humate 49% (Powder)', 
+    brand: 'AMBA HUMATE 49% P',
+    displayName: 'AMBA HUMATE 49% P',
+    specification: 'Potassium Humate 49% (Powder)', 
     category: 'Humic Acid and Fulvic Acid and their derivatives',
     crops: ['Paddy'], 
-    dosage: ['One soil Application at 1 kg/ha'], 
-    gazette: 'S.O. 3922(E), DATED 12-09-2024', 
+    dosage: ['One soil application at 1 kg/ha'], 
+    gazette: 'S.O. 3922(E), Dated 12-09-2024', 
     composition: [
-      '(i) Humic Acid per cent. By weight minimum 21', 
+      '(i) Humic Acid per cent. by weight minimum 21', 
       '(ii) pH (1% aqueous solution) 6.0-8.0'
     ] 
   },
-  { 
-    brand: 'Kalpam', 
-    specification: '(1) Ascophyllum nodosum 15% (Liquid)', 
-    category: 'Sea weed Extract',
-    crops: ['Green Gram'], 
-    dosage: ['Two foliar Applicxations at 1.5 l/ha'], 
-    gazette: 'S.O. 3922(E), DATED 12-09-2024', 
+  {
+    brand: 'AMBA HUMI 51% G',
+    displayName: 'AMBA HUMI 51% G',
+    specification: 'Humic Acid 51% (Granular)',
+    category: 'Humic Acid and Fulvic Acid and their derivatives',
+    crops: ['Green gram'],
+    dosage: ['Two soil applications at 1.5 kg/ha'],
+    gazette: 'S.O. 3922(E), Dated 12-09-2024',
     composition: [
-      '(i) Alginic Acid per.cent. by weight minimum 1.5', 
-      '(ii) Mannitol per cent. By weight, minimum 1.0',
-      '(iii) pH (10% aqueous solution) 4.7 +_ 1.0',
-      '(iv) Specific gravity 1.0 _1.1',
-      '(v) Total organic carbon per cent.by weight, minimum 5'
-    ] 
-  },
-  { 
-    brand: 'HUMIGROW+ new', 
-    displayName: 'HUMIGROW+',
-    specification: '(11) Humic acid and Fulvic acid 19.5 % (Liquid)', 
-    category: 'Humic and Fulvic Acid and their derivatives',
-    crops: ['Chilli', 'Potato', 'Rice', 'Cotton', 'Soybean', 'Cumin', 'Onion'], 
-    dosage: [
-      'Chilli: One foliar application at 1250 ml/ha',
-      'Potato: One foliar application at 1250 ml/ha',
-      'Rice: One foliar application at 1250 ml/ha',
-      'Cotton: One soil application at 1250 ml/ha',
-      'Cumin: One foliar application at 1250 ml/ha',
-      'Onion: One foliar application at 1250 ml/ha',
-      'Soybean: Two foliar applications at 1250 ml/ha'
-    ], 
-    gazette: 'S.O. 3741(E)DATED 13-08-2025', 
-    composition: [
-      'Composition:',
-      '(i) Humic acid (Source: Leonardite) per cent. by weight, minimum 18', 
-      '(ii) Fulvic acid per cent. by weight, minimum 1.5',
-      '(iii) Alkyl phenol ethoxylate per cent. by weight, minimum 10',
-      '(iv) Fatty alcohol ethoxylate per cent. by weight, minimum 10',
-      '(v) Water per cent. by weight, minimum 60.5',
-      '(vi) Total (per cent.) 100',
-      'Specifications:',
-      '(i) Humic acid per cent. by weight, minimum 18',
-      '(ii) Fulvic acid per cent. by weight, minimum 1.5',
-      '(iii) pH (1% aqueous solution) 4-5.5',
-      '(iv) Total organic carbon per cent. by weight, minimum 10',
-      '(v) Specific gravity 1.0 -1.30',
-      '(vi) Solubility per cent. by weight, minimum 80'
-    ] 
-  },
-  { 
-    brand: 'SAMPURNA', 
-    specification: '(15) Ascophyllum nodosum 20% (liquid)', 
-    category: 'Sea weed Extract',
-    crops: ['Chilli', 'Rice', 'Cotton', 'Bengal gram', 'Tomato', 'Soybean', 'Wheat'], 
-    dosage: [
-      'Chilli: Four foliar applications at 625 ml/ha',
-      'Rice: One soil application at 750 ml/ha',
-      'Cotton: Two foliar applications at 750 ml/ha',
-      'Bengal gram: Three foliar applications at 750 ml',
-      'Tomato: Three foliar applications at 1000 ml/ha',
-      'Soybean: Two foliar applications at 750 ml/ha',
-      'Wheat: Two foliar applications at 1000 ml/ha'
-    ], 
-    gazette: 'S.O. 3741(E)DATED 13-08-2025', 
-    composition: [
-      'Composition:',
-      '(i) Seaweed (Ascophyllum nodosum) extract per cent. by weight, minimum 20', 
-      '(ii) Sodium salt of Propyl Paraben per cent. by weight, minimum 0.25',
-      '(iii) Water per cent. by weight 79.75',
-      '(iv) Total (per cent.) 100',
-      'Specifications:',
-      '(i) Alginic acid per cent. by weight, minimum 1.5',
-      '(ii) Mannitol per cent. by weight, minimum 0.5',
-      '(iii) pH (1 % aqueous solution) 7.5- 9.5',
-      '(iv) Total dissolved solids per cent. by weight, minimum 60',
-      '(v) Total organic carbon per cent. by weight, minimum 10',
-      '(vi) Specific gravity 1.1- 1.3',
-      '(vii) Solubility per cent. by weight, minimum 98'
-    ] 
-  },
-  { 
-    brand: 'AMIGROW+ new', 
-    displayName: 'AMIGROW+',
-    specification: '(20) Protein hydrolysate 18% (Animal source) (Liquid)', 
-    category: 'Protein Hydrolysates and Amino Acids',
-    crops: ['Paddy', 'Chilli', 'Tomato', 'Grape', 'Cotton', 'Black gram'], 
-    dosage: [
-      'Paddy: Two foliar applications at 1200 ml/ha',
-      'Chilli: Four foliar applications at 1000 ml /ha',
-      'Tomato: Three foliar applications at 1000 ml/ha',
-      'Grape: Two foliar applications at 1000 ml/ha',
-      'Cotton: One foliar application at 625 ml/ha',
-      'Black gram: Three foliar applications at 750 ml/ha'
-    ], 
-    gazette: 'S.O. 3741(E)DATED 13-08-2025', 
-    composition: [
-      'Composition:',
-      '(i) Protein hydrolysate derived through combination of enzymatic (Exo and endo proteases) and mild acid (HCl) hydrolysis of maize and soybean seed protein (9:1 ratio) per cent. by weight, minimum 18', 
-      '(ii) Water 82',
-      '(iii) Total (per cent.) 100',
-      'Specifications:',
-      '(i) Total amino acids per cent. by weight, minimum 15',
-      '(ii) pH (1 % aqueous solution) 1.5- 3.5',
-      '(iii) Total organic carbon per cent. by weight, minimum 15',
-      '(iv) Specific gravity 1.0- 1.3',
-      '(v) Solubility per cent. by weight, minimum 98',
-      '(vi) Total dissolved solids per cent. by weight, minimum 50'
-    ] 
-  },
-  { 
-    brand: 'SAMPURNA 4G', 
-    specification: '(21) Mixture of seaweed extract and humic acid (Granule)', 
-    category: 'Mixed Formulation of Biostimulants',
-    crops: ['Paddy', 'Potato'], 
-    dosage: ['One soil Application at 10kg/ha for both paddy and potato'], 
-    gazette: 'S.O. 3742(E)DATED 13-08-2025', 
-    composition: [
-      'Composition:',
-      '(i) Seaweed (Ascophyllum nodosum) extract per cent. By weight, minimum 5', 
-      '(ii) Humic acid (Source: Leonardite) per cent. By weight, minimum 2',
-      '(iii) Polysorbate 80 per cent. By weight, minimum 1',
-      '(iv) Anthum gum per cent, byu weight, minimum 1',
-      '(v) Bentonite (Roasted) per cen. By weight, minimum QS',
-      '(vi) Total (per cent) 100',
-      'Specifications:',
-      '(i) Alginic acid content per cemnt. By minimum 0.50',
-      '(ii) Humic acid content per cent. By weight. Minimum 0.40',
-      '(iii) pH (1% aqueous solution) 9.0-11.0',
-      '(iv) Solubility per cent, by weight. Minimium 7',
-      '(v) Total organic carbon per cent. By weight. Minimum 2',
-      '(vi) Bilk density gram/cc) 1.20-1.25'
-    ] 
-  },
-  { 
-    brand: 'NUTRI GOLD', 
-    specification: '(21) Mixture of seaweed extract and humic acid (Granule)', 
-    category: 'Mixed Formulation of Biostimulants',
-    crops: ['Paddy', 'Potato'], 
-    dosage: ['One soil Application at 10kg/ha for both paddy and potato'], 
-    gazette: 'S.O. 3742(E)DATED 13-08-2025', 
-    composition: [
-      'Composition:',
-      '(i) Seaweed (Ascophyllum nodosum) extract per cent. By weight, minimum 5', 
-      '(ii) Humic acid (Source: Leonardite) per cent. By weight, minimum 2',
-      '(iii) Polysorbate 80 per cent. By weight, minimum 1',
-      '(iv) Anthum gum per cent, byu weight, minimum 1',
-      '(v) Bentonite (Roasted) per cen. By weight, minimum QS',
-      '(vi) Total (per cent) 100',
-      'Specifications:',
-      '(i) Alginic acid content per cemnt. By minimum 0.50',
-      '(ii) Humic acid content per cent. By weight. Minimum 0.40',
-      '(iii) pH (1% aqueous solution) 9.0-11.0',
-      '(iv) Solubility per cent, by weight. Minimium 7',
-      '(v) Total organic carbon per cent. By weight. Minimum 2',
-      '(vi) Bilk density gram/cc) 1.20-1.25'
-    ] 
-  },
-  { 
-    brand: 'PRIDE – X', 
-    specification: '(12) Mixture of Seaweed extract, Protein Hydrolysate and humic acid (liquid)', 
-    category: 'Mixed formulation of Biostimulants',
-    crops: ['Onion', 'Paddy', 'Potato', 'Chilli'], 
-    dosage: [
-      'Onion: Three foliar Sprays at 500 ml/ha',
-      'Paddy: Three foliar Sprays at 500 ml/ha',
-      'Potato: Three foliar Sprays at 500 ml/ha',
-      'Chilli: Three foliar Sprays at 500 ml/ha'
-    ], 
-    gazette: 'S.O. 3741(E) DATED 13-08-2025', 
-    composition: [
-      'Composition:',
-      '(i) Seaweed extract (Ascophyllum nodosum) per cent. By weight, minimum 10.0', 
-      '(ii) Protein hydrolysate derived from defatted soy flour by enzymatic (papain)hydrolysis per cent. By weight, minimum 12.0',
-      '(iii) Humic Acid (source : Leonardite) per cent. By weight, minimum 0.5',
-      '(iv) Polysorbate 80 per cent. By weight minimum 2',
-      '(v) Water per cent. By weight, minimum QS',
-      '(vi) Total (per cent) 100',
-      'Specifications:',
-      '(i) Alginic acid per cent. By weight, minimum 0.5',
-      '(ii) Fucoidan per cent. By weight, minimum 0.5',
-      '(iii) Free Amino acids per cent. By weight, minimum 10',
-      '(iv) Total amino acids per cent. By weight, minimum 12',
-      '(v) pH (10% aqueous solution) 6.0-7.5',
-      '(vi) Total dissolved solids per cent. By weight, minimum 20',
-      '(vii) Total organic carbon per cent. By weight, minimum 6',
-      '(viii) Specific Gravity 1-1.5',
-      '(ix) Solubility per cent. By weight, minimum 100'
-    ] 
-  },
-  { 
-    brand: 'S - 400', 
-    specification: '(5) Humic Acid 51% (Granular)', 
-    category: 'Humic acid and Fulvic acid and their derivatives',
-    crops: ['Green Gram'], 
-    dosage: ['Two soil application at 1.5 kg/ha'], 
-    gazette: 'S.O. 3922(E) DATED 12-09-2024', 
-    composition: [
-      '(i) Humic acid per cent. By weight, minimum 51', 
-      '(ii) Fulvic acid per cent. By weight, minimum 10',
+      '(i) Humic acid per cent. by weight minimum 51',
+      '(ii) Fulvic acid per cent. by weight minimum 10',
       '(iii) pH (1% aqueous solution) 10-12',
-      '(iv) Bilk density (25 0 C)g/cc 0.5-0.70'
-    ] 
+      '(iv) Bulk Density (25°C) g/cc 0.5–0.70'
+    ]
+  },
+  {
+    brand: 'AMBA HUMI & FULI 76%P',
+    displayName: 'AMBA HUMI & FULI 76%P',
+    specification: 'Humic and Fulvic Acid 76% (Powder)',
+    category: 'Humic Acid and Fulvic Acid and their derivatives',
+    crops: ['Tomato'],
+    dosage: ['Two foliar applications at 750 g/ha'],
+    gazette: 'S.O. 3922(E), Dated 12-09-2024',
+    composition: [
+      '(i) Humic acid per cent. by weight, minimum (Source: Leonardite) 75',
+      '(ii) Fulvic acid per cent. by weight, minimum 1',
+      '(iii) Potassium by weight, minimum 6',
+      '(iv) Dextrose monohydrate per cent. by weight, minimum as stabilizer 8',
+      '(v) Moisture 10',
+      '(vi) Total (per cent.) 100'
+    ]
+  },
+  {
+    brand: 'AMBA HUMALITE 82% P',
+    displayName: 'AMBA HUMALITE 82% P',
+    specification: 'Humalite 82% (Powder)',
+    category: 'Humic Acid and Fulvic Acid and their derivatives',
+    crops: ['Paddy'],
+    dosage: [
+      'Two applications: first soil application at 7 days after transplantation at 1875 g/ha',
+      'Second foliar application on 28 days after transplantation at 312.5 g/ha'
+    ],
+    gazette: 'S.O. 3922(E), Dated 12-09-2024',
+    composition: [
+      '(i) Humalite in natural form (Canada) per cent. by weight, minimum 82',
+      '(ii) Potassium hydroxide neutralizer per cent. by weight, minimum 18',
+      '(iii) Total (per cent.) 100'
+    ]
+  },
+  {
+    brand: 'AMBA HUMI & FULI 85% P',
+    displayName: 'AMBA HUMI & FULI 85% P',
+    specification: 'Humic Acid and Fulvic Acid 85% (Powder)',
+    category: 'Humic Acid and Fulvic Acid and their derivatives',
+    crops: ['Tomato'],
+    dosage: ['Three soil applications at 1250 g/ha'],
+    gazette: 'S.O. 3922(E), Dated 12-09-2024',
+    composition: [
+      '(i) Humic acid (Source: Leonardite) per cent. by weight, minimum 70',
+      '(ii) Fulvic acid per cent. by weight, minimum 15',
+      '(iii) Potassium hydroxide per cent. by weight 15',
+      '(iv) Total (per cent.) 100'
+    ]
+  },
+  {
+    brand: 'AMBA HUMI-40%P',
+    displayName: 'AMBA HUMI-40%P',
+    specification: 'Humic Acids 40% (Powder)',
+    category: 'Humic Acid and Fulvic Acid and their derivatives',
+    crops: ['Soybean', 'Paddy'],
+    dosage: [
+      'Soybean: Two soil applications at 625 g/ha',
+      'Paddy: Two soil applications at 625 g/ha'
+    ],
+    gazette: 'S.O. 3922(E), Dated 12-09-2024',
+    composition: [
+      '(i) Humic substances (Source: Leonardite) per cent. by weight, minimum 75',
+      '(ii) Potash per cent. by weight, minimum 4',
+      '(iii) Precipitated Silica (Anti-caking agent) per cent. by weight, minimum 5',
+      '(iv) Moisture per cent. by weight, minimum 16',
+      '(v) Total (per cent.) 100'
+    ]
+  },
+  {
+    brand: 'AMBA HUMI & FULI 25%-L',
+    displayName: 'AMBA HUMI & FULI 25%-L',
+    specification: 'Humic and Fulvic acid 25.05% (Liquid)',
+    category: 'Humic Acid and Fulvic Acid and their derivatives',
+    crops: ['Tomato'],
+    dosage: ['Five equal soil drench applications at 10 l/ha'],
+    gazette: 'S.O. 3922(E), Dated 12-09-2024',
+    composition: [
+      '(i) Humic and Fulvic acid per cent. by weight, minimum (Source: Leonardite) 25.05',
+      '(ii) Water per cent. by weight 74.95',
+      '(iii) Total (per cent.) 100'
+    ]
+  },
+  {
+    brand: 'AMBA MIXTURE OF HAV& B',
+    displayName: 'AMBA MIXTURE OF HAV& B',
+    specification: 'Mixture of Humic Acid, Amino Acid, Vitamins and Bio-chemicals (Powder)',
+    category: 'Mixed formulation of Biostimulants',
+    crops: ['Okra'],
+    dosage: ['Two soil applications at 250 g/ha'],
+    gazette: 'S.O. 3922(E), Dated 12-09-2024',
+    composition: [
+      '(i) Humic Acid per cent. by weight, minimum 30',
+      '(ii) Amino Acid (Glycine) per cent. by weight, minimum 7',
+      '(iii) Myoinositol per cent. by weight, minimum 2',
+      '(iv) Vitamin C per cent by weight, minimum 12.0',
+      '(v) Vitamin E per cent by weight, minimum 0.2',
+      '(vi) pH (1% aqueous solution) 5.0–6.5',
+      '(vii) Total organic carbon per cent by weight, minimum 25'
+    ]
+  },
+  {
+    brand: 'AMBA AMINO20%L',
+    displayName: 'AMBA AMINO20%L',
+    specification: 'Protein hydrolysate (Amino acids 20%) (Plant source) (Liquid)',
+    category: 'Protein Hydrolysates and Amino Acids',
+    crops: ['Soybean'],
+    dosage: ['Two foliar applications at 2 l/ha'],
+    gazette: 'S.O. 3922(E), Dated 12-09-2024',
+    composition: [
+      '(i) Protein hydrolysate (Microbial fermentation) per cent. by weight, minimum',
+      'a. Sugarbeet molasses 87.1',
+      'b. Corn/Wheat glucose syrups 12.4',
+      '(ii) Octhilinone as preservatives per cent. by weight, minimum 0.3',
+      '(iii) Polysiloxanes as antifoam agent per cent. by weight, minimum 0.2',
+      '(iv) Total (per cent.) 100'
+    ]
+  },
+  {
+    brand: 'AMBA PLANT 27%P',
+    displayName: 'AMBA PLANT 27%P',
+    specification: 'Protein hydrolysate 27% (Plant Source) (Powder)',
+    category: 'Protein Hydrolysates and Amino Acids',
+    crops: ['Paddy'],
+    dosage: ['Seed treatment before sowing at 3.0 g/kg seed'],
+    gazette: 'S.O. 3922(E), Dated 12-09-2024',
+    composition: [
+      '(i) Soy flour per cent. by weight, minimum 27',
+      '(ii) Enzymes [Protease 2% (400U/g) + Amylase 1% (80U/g)] per cent. by weight, minimum 3',
+      '(iii) Diatomaceous Earth powder per cent. by weight, maximum 70',
+      '(iv) Total (per cent.) 100'
+    ]
+  },
+  {
+    brand: 'AMBA AGRO S-A-A-8.3% GR',
+    displayName: 'AMBA AGRO S-A-A-8.3% GR',
+    specification: 'S- Abscisic acid (8.3%) (Granule)',
+    category: 'S- Abscisic acid',
+    crops: ['Wheat', 'Rice'],
+    dosage: ['One foliar application at 62.5 g/ha for both wheat and rice'],
+    gazette: 'S.O. 3922(E), Dated 12-09-2024',
+    composition: [
+      '(i) S- Abscisic acid per cent. by weight, minimum 8.3',
+      '(ii) Malic acid per cent. by weight, minimum QS',
+      '(iii) Total (per cent.) 100'
+    ]
+  },
+  {
+    brand: 'AMBA BROMO',
+    displayName: 'AMBA BROMO',
+    specification: '2- Bromo- (1H)- Indole- 3 Carboxaldehyde 1 ppm (Liquid)',
+    category: '2- Bromo- (1H)- Indole- 3 Carboxaldehyde',
+    crops: ['Tomato'],
+    dosage: ['Seed treatment at 1 ppm formulation'],
+    gazette: 'S.O. 3922(E), Dated 12-09-2024',
+    composition: [
+      '(i) 2- Bromo- (1H)- Indole- 3 Carboxaldehyde per cent. by weight, minimum 0.0001',
+      '(ii) Water per cent. by weight QS',
+      '(iii) Total (per cent.) 100'
+    ]
   },
 ];
 
 export const SLUG_TO_BRAND = {
-  // HI POWER
-  'HI POWER': 'HI POWER',
-  'HI%20POWER': 'HI POWER',
-  'hi power': 'HI POWER',
-  'HIPOWER': 'HI POWER',
-  'hipower': 'HI POWER',
-  
-  // Kalpam
-  'Kalpam': 'Kalpam',
-  'kalpam': 'Kalpam',
-  'KALPAM': 'Kalpam',
-  
-  // HUMIGROW+ new (handles + as space, missing +, encoded +, etc.)
-  'HUMIGROW+': 'HUMIGROW+ new',
-  'humigrow+': 'HUMIGROW+ new',
-  'HUMIGROW': 'HUMIGROW+ new',
-  'humigrow': 'HUMIGROW+ new',
-  'HUMIGROW ': 'HUMIGROW+ new',
-  'humigrow ': 'HUMIGROW+ new',
-  'HUMIGROW+ new': 'HUMIGROW+ new',
-  'humigrow+ new': 'HUMIGROW+ new',
-  'HUMIGROW new': 'HUMIGROW+ new',
-  'humigrow new': 'HUMIGROW+ new',
-  'HUMIGROW  new': 'HUMIGROW+ new',
-  'humigrow  new': 'HUMIGROW+ new',
-  'HUMIGROW%2B': 'HUMIGROW+ new',
-  'HUMIGROW%2Bnew': 'HUMIGROW+ new',
-  'HUMIGROW%2B%20new': 'HUMIGROW+ new',
-  'HUMIGROW+%20new': 'HUMIGROW+ new',
-  
-  // SAMPURNA
-  'SAMPURNA': 'SAMPURNA',
-  'sampurna': 'SAMPURNA',
-  
-  // AMIGROW+ new (handles + as space, missing +, encoded +, etc.)
-  'AMIGROW+': 'AMIGROW+ new',
-  'amigrow+': 'AMIGROW+ new',
-  'AMIGROW': 'AMIGROW+ new',
-  'amigrow': 'AMIGROW+ new',
-  'AMIGROW ': 'AMIGROW+ new',
-  'amigrow ': 'AMIGROW+ new',
-  'AMIGROW+ new': 'AMIGROW+ new',
-  'amigrow+ new': 'AMIGROW+ new',
-  'AMIGROW new': 'AMIGROW+ new',
-  'amigrow new': 'AMIGROW+ new',
-  'AMIGROW  new': 'AMIGROW+ new',
-  'amigrow  new': 'AMIGROW+ new',
-  'AMIGROW+new': 'AMIGROW+ new',
-  'amigrow+new': 'AMIGROW+ new',
-  'AMIGROW%2B': 'AMIGROW+ new',
-  'AMIGROW%2Bnew': 'AMIGROW+ new',
-  'AMIGROW%2B%20new': 'AMIGROW+ new',
-  'AMIGROW+%20new': 'AMIGROW+ new',
-  
-  // SAMPURNA 4G
-  'SAMPURNA 4G': 'SAMPURNA 4G',
-  'SAMPURNA%204G': 'SAMPURNA 4G',
-  'sampurna 4g': 'SAMPURNA 4G',
-  'SAMPURNA4G': 'SAMPURNA 4G',
-  'sampurna4g': 'SAMPURNA 4G',
-  
-  // NUTRI GOLD
-  'NUTRI GOLD': 'NUTRI GOLD',
-  'NUTRI%20GOLD': 'NUTRI GOLD',
-  'nutri gold': 'NUTRI GOLD',
-  'NUTRIGOLD': 'NUTRI GOLD',
-  'nutrigold': 'NUTRI GOLD',
-  
-  // PRIDE – X (special dash character)
-  'PRIDE – X': 'PRIDE – X',
-  'PRIDE%20%E2%80%93%20X': 'PRIDE – X',
-  'PRIDE - X': 'PRIDE – X',
-  'PRIDE-X': 'PRIDE – X',
-  'pride - x': 'PRIDE – X',
-  'pride-x': 'PRIDE – X',
-  'PRIDE X': 'PRIDE – X',
-  'pride x': 'PRIDE – X',
-  'PRIDEX': 'PRIDE – X',
-  'pridex': 'PRIDE – X',
-  
-  // S - 400
-  'S - 400': 'S - 400',
-  'S%20-%20400': 'S - 400',
-  'S-400': 'S - 400',
-  's-400': 'S - 400',
-  'S 400': 'S - 400',
-  's 400': 'S - 400',
-  'S400': 'S - 400',
-  's400': 'S - 400',
+  // Default product aliases map to AMBA HUMATE 49% P
+  'Kalpam': 'AMBA HUMATE 49% P',
+  'kalpam': 'AMBA HUMATE 49% P',
+  'KALPAM': 'AMBA HUMATE 49% P',
+  // Support canonical and requested alias
+  'Kalpamas': 'AMBA HUMATE 49% P',
+  // AMBA HUMI 51% G aliases
+  'AMBA HUMI 51% G': 'AMBA HUMI 51% G',
+  'AMBA%20HUMI%2051%25%20G': 'AMBA HUMI 51% G',
+  'amba humi 51% g': 'AMBA HUMI 51% G',
+  // AMBA HUMI & FULI 76%P aliases
+  'AMBA HUMI & FULI 76%P': 'AMBA HUMI & FULI 76%P',
+  'AMBA%20HUMI%20%26%20FULI%2076%25P': 'AMBA HUMI & FULI 76%P',
+  'amba humi & fuli 76%p': 'AMBA HUMI & FULI 76%P',
+  // AMBA HUMALITE 82% P aliases
+  'AMBA HUMALITE 82% P': 'AMBA HUMALITE 82% P',
+  'AMBA%20HUMALITE%2082%25%20P': 'AMBA HUMALITE 82% P',
+  'amba humalite 82% p': 'AMBA HUMALITE 82% P',
+  // AMBA HUMI & FULI 85% P aliases
+  'AMBA HUMI & FULI 85% P': 'AMBA HUMI & FULI 85% P',
+  'AMBA%20HUMI%20%26%20FULI%2085%25%20P': 'AMBA HUMI & FULI 85% P',
+  'amba humi & fuli 85% p': 'AMBA HUMI & FULI 85% P',
+  // AMBA HUMI-40%P aliases
+  'AMBA HUMI-40%P': 'AMBA HUMI-40%P',
+  'AMBA%20HUMI-40%25P': 'AMBA HUMI-40%P',
+  'amba humi-40%p': 'AMBA HUMI-40%P',
+  // AMBA HUMI & FULI 25%-L aliases
+  'AMBA HUMI & FULI 25%-L': 'AMBA HUMI & FULI 25%-L',
+  'AMBA%20HUMI%20%26%20FULI%2025%25-L': 'AMBA HUMI & FULI 25%-L',
+  'amba humi & fuli 25%-l': 'AMBA HUMI & FULI 25%-L',
+  'AMBA MIXTURE OF HAV& B': 'AMBA MIXTURE OF HAV& B',
+  'AMBA%20MIXTURE%20OF%20HAV%26%20B': 'AMBA MIXTURE OF HAV& B',
+  'amba mixture of hav& b': 'AMBA MIXTURE OF HAV& B',
+  // AMBA AMINO20%L aliases
+  'AMBA AMINO20%L': 'AMBA AMINO20%L',
+  'AMBA%20AMINO20%25L': 'AMBA AMINO20%L',
+  'amba amino20%l': 'AMBA AMINO20%L',
+  // AMBA PLANT 27%P aliases
+  'AMBA PLANT 27%P': 'AMBA PLANT 27%P',
+  'AMBA%20PLANT%2027%25P': 'AMBA PLANT 27%P',
+  'amba plant 27%p': 'AMBA PLANT 27%P',
+  // AMBA AGRO S-A-A-8.3% GR aliases
+  'AMBA AGRO S-A-A-8.3% GR': 'AMBA AGRO S-A-A-8.3% GR',
+  'AMBA%20AGRO%20S-A-A-8.3%25%20GR': 'AMBA AGRO S-A-A-8.3% GR',
+  'amba agro s-a-a-8.3% gr': 'AMBA AGRO S-A-A-8.3% GR',
+  // AMBA BROMO aliases
+  'AMBA BROMO': 'AMBA BROMO',
+  'AMBA%20BROMO': 'AMBA BROMO',
+  'amba bromo': 'AMBA BROMO'
 };
 
 export function findProductBySlug(slug) {
