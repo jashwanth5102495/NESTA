@@ -8,7 +8,7 @@ export const PRODUCTS = [
     category: 'Humic Acid and Fulvic Acid and Derivatives',
     crops: ['Paddy'], 
     dosage: ['One soil application at 1 kg/ha'], 
-    gazette: 'S.O. 3922(E), Dated 12-09-2024', 
+    gazette: 'S.O. 3922(E)  12th  September, 2024', 
     composition: [
       '(i) Humic Acid per cent. by weight minimum 21', 
       '(ii) pH (1% aqueous solution) 6.0-8.0'
@@ -21,7 +21,7 @@ export const PRODUCTS = [
     category: 'Humic Acid and Fulvic Acid and Derivatives',
     crops: ['Green gram'],
     dosage: ['Two soil applications at 1.5 kg/ha'],
-    gazette: 'S.O. 3922(E), Dated 12-09-2024',
+    gazette: 'S.O. 3922(E)  12th  September, 2024',
     composition: [
       '(i) Humic acid per cent. by weight minimum 51',
       '(ii) Fulvic acid per cent. by weight minimum 10',
@@ -36,7 +36,7 @@ export const PRODUCTS = [
     category: 'Humic Acid and Fulvic Acid and Derivatives',
     crops: ['Tomato'],
     dosage: ['Two foliar applications at 750 g/ha'],
-    gazette: 'S.O. 3922(E), Dated 12-09-2024',
+    gazette: 'S.O. 2346(E)   26th May, 2025',
     composition: [
       '(i) Humic acid per cent. by weight, minimum (Source: Leonardite) 75',
       '(ii) Fulvic acid per cent. by weight, minimum 1',
@@ -56,7 +56,7 @@ export const PRODUCTS = [
       'Two applications: first soil application at 7 days after transplantation at 1875 g/ha',
       'Second foliar application on 28 days after transplantation at 312.5 g/ha'
     ],
-    gazette: 'S.O. 3922(E), Dated 12-09-2024',
+    gazette: 'S.O. 3741(E)   13th August, 2025',
     composition: [
       '(i) Humalite in natural form (Canada) per cent. by weight, minimum 82',
       '(ii) Potassium hydroxide neutralizer per cent. by weight, minimum 18',
@@ -70,7 +70,7 @@ export const PRODUCTS = [
     category: 'Humic Acid and Fulvic Acid and Derivatives',
     crops: ['Tomato'],
     dosage: ['Three soil applications at 1250 g/ha'],
-    gazette: 'S.O. 3922(E), Dated 12-09-2024',
+    gazette: 'S.O. 3741(E)  13th August, 2025',
     composition: [
       '(i) Humic acid (Source: Leonardite) per cent. by weight, minimum 70',
       '(ii) Fulvic acid per cent. by weight, minimum 15',
@@ -88,7 +88,7 @@ export const PRODUCTS = [
       'Soybean: Two soil applications at 625 g/ha',
       'Paddy: Two soil applications at 625 g/ha'
     ],
-    gazette: 'S.O. 3922(E), Dated 12-09-2024',
+    gazette: 'S.O. 3741(E) 13th August, 2025',
     composition: [
       '(i) Humic substances (Source: Leonardite) per cent. by weight, minimum 75',
       '(ii) Potash per cent. by weight, minimum 4',
@@ -104,7 +104,7 @@ export const PRODUCTS = [
     category: 'Humic Acid and Fulvic Acid and Derivatives',
     crops: ['Tomato'],
     dosage: ['Five equal soil drench applications at 10 l/ha'],
-    gazette: 'S.O. 3922(E), Dated 12-09-2024',
+    gazette: 'S.O. 2346E) 26th May, 2025',
     composition: [
       '(i) Humic and Fulvic acid per cent. by weight, minimum (Source: Leonardite) 25.05',
       '(ii) Water per cent. by weight 74.95',
@@ -118,7 +118,7 @@ export const PRODUCTS = [
     category: 'Mixed Formulation',
     crops: ['Okra'],
     dosage: ['Two soil applications at 250 g/ha'],
-    gazette: 'S.O. 3922(E), Dated 12-09-2024',
+    gazette: 'S.O. 3922(E).  12th  September, 2024',
     composition: [
       '(i) Humic Acid per cent. by weight, minimum 30',
       '(ii) Amino Acid (Glycine) per cent. by weight, minimum 7',
@@ -136,7 +136,7 @@ export const PRODUCTS = [
     category: 'Protein Hydrolysates and Amino Acids',
     crops: ['Soybean'],
     dosage: ['Two foliar applications at 2 l/ha'],
-    gazette: 'S.O. 3922(E), Dated 12-09-2024',
+    gazette: 'S.O. 2346E) 26th May, 2025',
     composition: [
       '(i) Protein hydrolysate (Microbial fermentation) per cent. by weight, minimum',
       'a. Sugarbeet molasses 87.1',
@@ -153,7 +153,7 @@ export const PRODUCTS = [
     category: 'Protein Hydrolysates and Amino Acids',
     crops: ['Paddy'],
     dosage: ['Seed treatment before sowing at 3.0 g/kg seed'],
-    gazette: 'S.O. 3922(E), Dated 12-09-2024',
+    gazette: 'S.O. 2346(E)   26th May, 2025',
     composition: [
       '(i) Soy flour per cent. by weight, minimum 27',
       '(ii) Enzymes [Protease 2% (400U/g) + Amylase 1% (80U/g)] per cent. by weight, minimum 3',
@@ -168,7 +168,7 @@ export const PRODUCTS = [
     category: 'Anti-transpirant',
     crops: ['Wheat', 'Rice'],
     dosage: ['One foliar application at 62.5 g/ha for both wheat and rice'],
-    gazette: 'S.O. 3922(E), Dated 12-09-2024',
+    gazette: 'S.O. 3742(E)   13th August, 2025',
     composition: [
       '(i) S- Abscisic acid per cent. by weight, minimum 8.3',
       '(ii) Malic acid per cent. by weight, minimum QS',
@@ -182,7 +182,7 @@ export const PRODUCTS = [
     category: 'Biochemicals',
     crops: ['Tomato'],
     dosage: ['Seed treatment at 1 ppm formulation'],
-    gazette: 'S.O. 3922(E), Dated 12-09-2024',
+    gazette: 'S.O. 2346E)  26th May, 2025',
     composition: [
       '(i) 2- Bromo- (1H)- Indole- 3 Carboxaldehyde per cent. by weight, minimum 0.0001',
       '(ii) Water per cent. by weight QS',
@@ -196,7 +196,7 @@ export const PRODUCTS = [
     category: 'Seaweed Extract',
     crops: ['Chilli'],
     dosage: ['Three foliar applications at 200 g/ha'],
-    gazette: 'S.O.3922(E), Dated 12-9-2024',
+    gazette: 'S.O. 3742(E)   13th August, 2025',
     composition: [
       '(i) Seaweed (Sargassum wightii) extract per cent. by weight, minimum 35',
       '(ii) Bentonite per cent. by weight QS',

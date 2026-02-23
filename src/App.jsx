@@ -102,7 +102,7 @@ export default function App() {
               </div>
               <div className="flex-1">
                 <div className="text-[#d9c98f] text-sm">Gazette Notification:</div>
-                <div className="text-white text-base sm:text-lg">{product?.gazette || 'SO:3922(E), Dated: 12th September ,2024'}</div>
+                <div className="text-white text-base sm:text-lg whitespace-pre-wrap">{product?.gazette || 'SO:3922(E), Dated: 12th September ,2024'}</div>
               </div>
             </div>
           </StarBorder>
