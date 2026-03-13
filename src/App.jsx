@@ -1,15 +1,15 @@
 import React, { useState, useEffect } from 'react';
 import StarBorder from './StarBorder.jsx';
 import './StarBorder.css';
-import { PRODUCTS, findProductBySlug } from './productsData.js';
+import { findProductBySlug } from './productsData.js';
 
 export default function App() {
   const [showIntro, setShowIntro] = useState(true);
   const [product, setProduct] = useState(null);
 
   useEffect(() => {
-    const DEFAULT_ALIAS = 'Kalpamas';
-    const DEFAULT_ALIASES = new Set(['Kalpamas', 'Kalpam', 'KALPAM', 'kalpam']);
+    const DEFAULT_ALIAS = 'ZIGMAR';
+    const DEFAULT_ALIASES = new Set(['ZIGMAR', 'zigmar']);
     const current = window.location.pathname || '/';
     const rawPath = current.replace(/^\//, '');
     const effectivePath = rawPath || DEFAULT_ALIAS;
@@ -73,7 +73,7 @@ export default function App() {
               playsInline 
             />
           </div>
-        <div className="mt-2 text-xs sm:text-sm text-black font-semibold tracking-wide">Bio‑Stimulant Registration Details</div>
+        <div className="mt-2 text-xs sm:text-sm text-white font-semibold tracking-wide">Bio‑Stimulant Registration Details</div>
       </header>
 
       {/* Main panel */}
@@ -192,14 +192,29 @@ export default function App() {
                 <span className="text-lg">🏭</span>
               </div>
               <div className="flex-1">
-                <div className="text-[#d9c98f] text-sm">Imported And Marketed By:</div>
-                <div className="Comp text-white/90 text-sm sm:text-base font-semibold">Amba Agro Company</div>
-                <div className="text-white/90 text-sm sm:text-base">Shop No.3, Sy.No.90/1</div>
-                <div className="text-white/90 text-sm sm:text-base">Kamat Layout, Bappa Grama Post Office</div>
-                <div className="text-white/90 text-sm sm:text-base">Machohalli, Bengaluru, Bengaluru Urban</div>
-                <div className="text-white/90 text-sm sm:text-base">Karnataka - 560091</div>
-                <div className="text-white/90 text-sm sm:text-base">Phone: 9380676778</div>
-                <div className="text-white/90 text-sm sm:text-base">E-mail: ambaagro76@gmail.com</div>
+                <div className="text-[#d9c98f] text-sm">Manufactured By:</div>
+                <div className="text-white/90 text-sm sm:text-base font-semibold">Victor Bio Genetics Private Limited</div>
+                <div className="text-white/90 text-sm sm:text-base">Plot No.3/A,Survey No.35,</div>
+                <div className="text-white/90 text-sm sm:text-base">IDA Cherlapally,Kapra Mandal,</div>
+                <div className="text-white/90 text-sm sm:text-base">Medchal-Malkajgiri District,</div>
+                <div className="text-white/90 text-sm sm:text-base">Hyderabad,Telangana-500051</div>
+                <div className="text-white/90 text-sm sm:text-base">Phone: 9603722045</div>
+                <div className="text-white/90 text-sm sm:text-base">E-mail: victorbiogenetics@gmail.com</div>
+              </div>
+            </div>
+          </StarBorder>
+          <StarBorder as="div" className="w-full" color="cyan" speed="5s" thickness={2}>
+            <div className="flex items-start">
+              <div className="flex items-center justify-center w-10 h-10 rounded-lg bg-[#e8d8a6]/25 text-[#e8d8a6] mr-3 shadow-inner">
+                <span className="text-lg">🛒</span>
+              </div>
+              <div className="flex-1">
+                <div className="text-[#d9c98f] text-sm">Marketed By:</div>
+                <div className="text-white/90 text-sm sm:text-base font-semibold">Victor Bio Genetics Private Limited</div>
+                <div className="text-white/90 text-sm sm:text-base">Plot No.4/318,Andola Circle,Kellur,</div>
+                <div className="text-white/90 text-sm sm:text-base">Kalaburagi-585303, Karnataka</div>
+                <div className="text-white/90 text-sm sm:text-base">Phone: 9603722045</div>
+                <div className="text-white/90 text-sm sm:text-base">E-mail: victorbiogenetics@gmail.com</div>
               </div>
             </div>
           </StarBorder>
