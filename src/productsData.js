@@ -87,12 +87,20 @@ export const PRODUCTS = [
   {
     brand: 'YUVA GRANULES',
     displayName: 'YUVA GRANULES',
-    specification: 'YUVA GRANULES',
-    category: '',
-    crops: [],
-    dosage: [],
-    gazette: '26th May, 2025 S.O. 2346(E)',
-    composition: []
+    specification: 'Mixture of Humic acid and Seaweed extract (Granules)',
+    category: 'Mixed Formulation',
+    crops: ['Tomato'],
+    dosage: ['Two soil applications at 25 kg/ha'],
+    gazette: '26th May, 2025 S.O. 2346 (E).',
+    composition: [
+      '(i) Alginic acid per cent. by weight, minimum 0.02',
+      '(ii) Free Amino acids per cent. by weight, minimum 0.74',
+      '(iii) Humic acid per cent. by weight, minimum 0.83',
+      '(iv) Total organic carbon per cent. by weight, minimum 6.0',
+      '(v) Bulk density (g/cc) 1.0- 1.2',
+      '(vi) pH (1% aqueous solution) 7.0- 9.0',
+      '(vii) Solubility per cent., minimum 44'
+    ]
   }
 ];
 
