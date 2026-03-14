@@ -225,7 +225,7 @@ export default function App() {
               </div>
               <div className="flex-1">
                 <div className="text-[#d9c98f] text-sm">Customer Care</div>
-                <div className="text-white/90 text-sm sm:text-base">9380676778</div>
+                <div className="text-white/90 text-sm sm:text-base">9603722045</div>
               </div>
             </div>
           </StarBorder>
