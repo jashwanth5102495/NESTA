@@ -10,10 +10,11 @@ export const PRODUCTS = [
     dosage: ['Three foliar applications at 2.5 kg/ha'],
     gazette: '26th May, 2025 S.O. 2346 (E)',
     composition: [
-      '(i) Free amino acids per cent. by weight, minimum 5',
-      '(ii) Specific gravity 0.90 ± 0.02',
-      '(iii) pH (5% aqueous solution) 4 - 5',
-      '(iv) Solubility (as suspension) per cent., minimum 20'
+      '(i) Amino acids derived from maize seeds/ grains (starch removed gluten through acid hydrolysis) per cent. by weight, minimum 5',
+      '(ii) Polysorbate 80 per cent. weight by volume, minimum 5',
+      '(iii) pH Regulators Potassium Carbonate / Potassium Hydroxide per cent. weight by volume, minimum 5',
+      '(iv) Bentonite per cent. by weight, maximum 85',
+      '(v) Total (per cent.) 100'
     ]
   },
   {
@@ -25,10 +26,11 @@ export const PRODUCTS = [
     dosage: ['Two foliar applications at 750 ml/ha'],
     gazette: '26th May, 2025 S.O. 2346(E)',
     composition: [
-      '(i) Free amino acids per cent. weight by volume, minimum 10',
-      '(ii) Specific gravity 1.15 ± 0.03',
-      '(iii) pH (5% aqueous solution) 2.5-3.5',
-      '(iv) Solubility per cent., minimum 100'
+      '(i) Amino acids derived from Maize seeds / grains (starch removed gluten through acid hydrolysis) per cent. weight by volume, minimum 10',
+      '(ii) Polysorbate 80 per cent. weight by volume, minimum 2',
+      '(iii) Sulphuric acid per cent. weight by volume, minimum 3',
+      '(iv) Water per cent. by weight QS',
+      '(v) Total (per cent.) 100'
     ]
   },
   {
@@ -40,11 +42,9 @@ export const PRODUCTS = [
     dosage: ['Two soil applications at 40 kg/ha'],
     gazette: '26th May, 2025 S.O. 2346(E)',
     composition: [
-      '(i) Free amino acids per cent. by weight, minimum 0.18',
-      '(ii) Total amino acids per cent. by weight, minimum 1.45',
-      '(iii) Bulk density g/cc 0.95- 1.15',
-      '(iv) pH (10% aqueous solution) 6.0- 7.5',
-      '(v) Solubility per cent., minimum Not soluble in water'
+      '(i) Protein hydrolysate derived from defatted soybean seed flour by enzymatic (Papain) hydrolysis per cent. by weight, minimum 1.5',
+      '(ii) Bentonite per cent. by weight, maximum 98.5',
+      '(iii) Total (per cent.) 100'
     ]
   },
   {
@@ -56,12 +56,10 @@ export const PRODUCTS = [
     dosage: ['Three foliar sprays at 1.25 l/ha'],
     gazette: '26th May, 2025 S.O. 2346(E)',
     composition: [
-      '(i) Carrageenan per cent. by weight, minimum 0.7',
-      '(ii) Total dissolved solids per cent. by weight, minimum 8.0',
-      '(iii) Total organic carbon per cent. by weight, minimum 1.4',
-      '(iv) Specific gravity 1.0- 1.10',
-      '(v) pH (50 % aqueous solution) 3.0- 5.0',
-      '(vi) Solubility per cent., minimum > 98'
+      '(i) Kappaphycus alvarezii extract per cent. by weight, minimum 7.2',
+      '(ii) Organic acids (Acetic, Citric and Lactic acid) per cent. by weight, minimum 0.8',
+      '(iii) Water per cent. by weight 92.0',
+      '(iv) Total (per cent.) 100'
     ]
   },
   {
@@ -74,7 +72,7 @@ export const PRODUCTS = [
       '(i) Rice Two foliar applications at 1000 ml/ha',
       '(ii) Tomato Two foliar applications at 625 ml/ha'
     ],
-    gazette: '26th May, 2025 S.O. 2346(E)',
+    gazette: '13th August, 2025\nS.O. 3741(E).',
     composition: [
       '(i) Seaweed extract (Sargassum tenerrimum) per cent. by weight, minimum 10',
       '(ii) Carbohydrates per cent. by weight, minimum 8',
@@ -93,13 +91,10 @@ export const PRODUCTS = [
     dosage: ['Two soil applications at 25 kg/ha'],
     gazette: '26th May, 2025 S.O. 2346 (E).',
     composition: [
-      '(i) Alginic acid per cent. by weight, minimum 0.02',
-      '(ii) Free Amino acids per cent. by weight, minimum 0.74',
-      '(iii) Humic acid per cent. by weight, minimum 0.83',
-      '(iv) Total organic carbon per cent. by weight, minimum 6.0',
-      '(v) Bulk density (g/cc) 1.0- 1.2',
-      '(vi) pH (1% aqueous solution) 7.0- 9.0',
-      '(vii) Solubility per cent., minimum 44'
+      '(i) Kappaphycus alvarezii and Sargassum swartzii in ratio of 1:1, extract per cent. by weight, minimum 3.3',
+      '(ii) Humic acid powder as potassium humate (Source: Leonardite) per cent. by weight, minimum 1.0',
+      '(iii) Dolomite per cent. by weight, maximum 95.7',
+      '(iv) Total 100'
     ]
   }
 ];
