@@ -96,7 +96,125 @@ export const PRODUCTS = [
       '(iii) Dolomite per cent. by weight, maximum 95.7',
       '(iv) Total 100'
     ]
-  }
+  },
+  {
+    brand: 'Victor-D',
+    displayName: 'Victor-D',
+    specification: 'Humic acid 1 % (Liquid)',
+    category: 'Humic Acid',
+    crops: ['Maize'],
+    dosage: ['Seed treatment at 7.5 ml/kg'],
+    gazette: '13th August, 2025 - S.O. 3741(E)',
+    composition: [
+      '(i) Humic acid (source: Leonardite) per cent. by weight, minimum 1.0',
+      '(ii) Potash as K2O per cent. by weight, minimum 0.5',
+      '(iii) Water per cent. by weight 98.5',
+      '(iv) Total (per cent.) 100'
+    ]
+  },
+  {
+    brand: 'v-gold',
+    displayName: 'v-gold',
+    specification: 'Humic Acid 1.5% (Granules)',
+    category: 'Humic Acid',
+    crops: ['Chilli'],
+    dosage: ['Two soil applications at 30 kg/ha'],
+    gazette: '26th May, 2025 - S.O. 2346 (E)',
+    composition: [
+      '(i) Humic acid (as Potassium humate obtained from Leonardite mineral source) per cent. by weight, minimum  ',
+      '(ii) Bentonite per cent. by weight, maximum as carrier 98.5',
+      '(iii) Total (per cent.) 100'
+      
+    ]
+  },
+
+  {
+    brand: 'v-star',
+    displayName: 'v-star',
+    specification: 'Humic Acid 6% (Liquid) ',
+    category: 'Humic Acid and Fulvic Acid  and their Derivatives',
+    crops: ['Tomato '],
+    dosage: ['Three foliar applications at 1.25 l/ha'],
+    gazette: '26th May, 2025 S.O. 2346(E)',
+    composition: [
+      '(i)  Humic acid (as Potassium humate obtained from Leonardite mineral source) per cent. by weight, minimum 6.0 ',
+      '(ii)  Water per cent. by weight QS', 
+      '(iii)  Total (per cent.) 100 '
+      
+    ]
+  },  
+
+  {
+    brand: 'Primex',
+    displayName: 'Primex',
+    specification: 'Ascophyllum nodosum 7% (Liquid)  ',
+    category: 'Seaweed Extract',
+    crops: ['Tomato '],
+    dosage: ['One soil application as drenching and three foliar applications at 2.5 l/ha'],
+    gazette: ' 26th May, 2025 S.O. 2346(E)',
+    composition: [
+      '(i)  Ascophyllum nodosum extract per cent. by weight, minimum 7  ',
+'(ii)  Methylene carbamide per cent. by weight, minimum as adjuvant 2', 
+'(iii)  Benzisothiazolinone per cent by weight, minimum 0.3', 
+'(iv)  Water per cent. by weight QS', 
+'(v) Total (per cent.) 100'
+      
+    ]
+  },   
+
+  {
+    brand: 'Seaboss',
+    displayName: 'Seaboss',
+    specification: 'Sargassum tenerrimum 2%( Granular)',
+    category: 'Seaweed Extract',
+    crops: ['Paddy, Tomato  '],
+    dosage: [' Paddy: One soil application at 12.5 kg/ha. Tomato: One soil application at 12.5 kg/ha'],
+    gazette: ' 26th May, 2025 S.O. 2346(E)',
+    composition: [
+'(i)  Alginic Acid per cent.by weight minimum 0.2', 
+'(ii)  pH (1:2 aqueous solution) 6.0 - 8.5', 
+'(iii)  Bulk density (g/cc) 0.95 – 1.1 '
+      
+    ]
+  },   
+
+  {
+    brand: 'hexagard',
+    displayName: 'hexagard',
+    specification: 'Mixture of seaweed extract and algal extract (Liquid) ',
+    category: 'Mixed Formulation',
+    crops: ['Brinjal '],
+    dosage: [' Two foliar applications at 500 mL/ha'],
+    gazette: '  26th May, 2025 S.O. 2346E)',
+    composition: [
+'(i)  Sargassum wightii extract per cent. weight by volume, minimum 2.2 ',
+'(ii)  Arthrospira platensis extract per cent. weight by volume, minimum 3.3', 
+'(iii) Water per cent. by weight QS', 
+'(iv) Total (per cent.) 100 '
+      
+    ]
+  },     
+
+  {
+    brand: 'britek',
+    displayName: 'britek',
+    specification: 'Mixture of Humic Acid, Amino Acid, Vitamins and Bio-chemicals (powder) ',
+    category: 'Mixed Formulation',
+    crops: ['Okra  '],
+    dosage: [' Two soil applications at 250g/ha'],
+    gazette: '  26th May, 2025 S.O. 2346E)',
+    composition: [
+'(i)  Humic Acid per cent. by weight, minimum 30 ',
+'(ii)  Amino Acid (Glycine) per cent. by weight , minimum 7', 
+'(iii)  Myoinositol per cent. by weight , minimum 2 ',
+'(iv)  Vitamin C per cent by weight , minimum 12.0', 
+'(v)  Vitamin E per cent by weight , minimum 0.2', 
+'(vi)  pH (1% aqueous solution) 5.0 – 6.5 ',
+'(vii)  Total organic carbon per cent by weight , minimum 25  '
+      
+    ]
+  },  
+
 ];
 
 export const SLUG_TO_BRAND = {
@@ -113,19 +231,40 @@ export const SLUG_TO_BRAND = {
   'BT%2DLEAD': 'BT-LEAD',
   'BT%20LEAD': 'BT-LEAD',
   'bt-lead': 'BT-LEAD',
+  'Victor-D': 'Victor-D',
+  'Victor%2DD': 'Victor-D',
+  'Victor%20D': 'Victor-D',
+  'victor-d': 'Victor-D',
   'YUVA GRANULES': 'YUVA GRANULES',
   'YUVA%20GRANULES': 'YUVA GRANULES',
-  'yuva granules': 'YUVA GRANULES'
+  'yuva granules': 'YUVA GRANULES',
+  'v-gold': 'v-gold',
+  'v-star': 'v-star',
+  'Primex': 'Primex',
+  'primex': 'Primex',
+  'Seaboss': 'Seaboss',
+  'seaboss': 'Seaboss',
+  'hexagard': 'hexagard',
+  'Hexagard': 'hexagard',
+  'britek': 'britek',
+  'Britek': 'britek'
 };
+
+function normalizeBrandKey(value) {
+  return String(value || '')
+    .replace(/\+/g, ' ')
+    .trim()
+    .toUpperCase();
+}
 
 export function findProductBySlug(slug) {
   const decoded = decodeURIComponent(slug);
-  const normalized = decoded.replace(/\+/g, ' ');
-  const brand = SLUG_TO_BRAND[normalized] || SLUG_TO_BRAND[slug] || normalized;
-  const found = PRODUCTS.find(p => p.brand.toUpperCase() === brand.toUpperCase());
+  const normalized = decoded.replace(/\+/g, ' ').trim();
+  const brand = (SLUG_TO_BRAND[normalized] || SLUG_TO_BRAND[slug] || normalized).trim();
+  const found = PRODUCTS.find(p => normalizeBrandKey(p.brand) === normalizeBrandKey(brand));
   return found || PRODUCTS[0];
 }
 
 export function findProductByBrand(brand) {
-  return PRODUCTS.find(p => p.brand === brand) || PRODUCTS[0];
+  return PRODUCTS.find(p => normalizeBrandKey(p.brand) === normalizeBrandKey(brand)) || PRODUCTS[0];
 }

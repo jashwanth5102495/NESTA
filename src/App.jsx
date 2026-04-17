@@ -21,12 +21,12 @@ export default function App() {
     } else if (DEFAULT_ALIASES.has(rawPath)) {
       desiredSlug = `/${DEFAULT_ALIAS}`;
     } else {
-      desiredSlug = `/${encodeURIComponent(found.brand)}`;
+      desiredSlug = `/${encodeURIComponent((found.brand || '').trim())}`;
     }
     if (current !== desiredSlug) {
       window.history.replaceState(null, '', desiredSlug);
     }
-    document.title = `${found.brand} — Product Information`;
+    document.title = `${(found.brand || '').trim()} — Product Information`;
   }, []);
 
 
