@@ -101,7 +101,7 @@ export const PRODUCTS = [
     brand: 'Victor-D',
     displayName: 'Victor-D',
     specification: 'Humic acid 1 % (Liquid)',
-    category: 'Humic Acid',
+    category: 'Humic Acid and Fulvic Acid  and their Derivatives',
     crops: ['Maize'],
     dosage: ['Seed treatment at 7.5 ml/kg'],
     gazette: '13th August, 2025 - S.O. 3741(E)',
