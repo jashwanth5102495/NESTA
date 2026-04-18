@@ -202,15 +202,14 @@ export const PRODUCTS = [
     category: 'Mixed Formulation',
     crops: ['Okra  '],
     dosage: [' Two soil applications at 250g/ha'],
-    gazette: '  26th May, 2025 S.O. 2346E)',
+    gazette: '  16th February, 2026 S.O. 876(E)',
     composition: [
-'(i)  Humic Acid per cent. by weight, minimum 30 ',
-'(ii)  Amino Acid (Glycine) per cent. by weight , minimum 7', 
-'(iii)  Myoinositol per cent. by weight , minimum 2 ',
-'(iv)  Vitamin C per cent by weight , minimum 12.0', 
-'(v)  Vitamin E per cent by weight , minimum 0.2', 
-'(vi)  pH (1% aqueous solution) 5.0 – 6.5 ',
-'(vii)  Total organic carbon per cent by weight , minimum 25  '
+'(i) Potassium humate per cent. by weight, minimum 39', 
+'(ii) Amino acid per cent. by weight, minimum 10', 
+'(iii) Vitamins per cent. by weight, minimum 22', 
+'(iv) Sugar Alcohols (myo inositol) per cent. by weight, maximum 4',
+'(v) Modified starch per cent. by weight, maximum 25', 
+'(vi) Total (per cent.) 100 '
       
     ]
   },  
