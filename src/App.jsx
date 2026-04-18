@@ -8,8 +8,8 @@ export default function App() {
   const [product, setProduct] = useState(null);
 
   useEffect(() => {
-    const DEFAULT_ALIAS = 'ZIGMAR';
-    const DEFAULT_ALIASES = new Set(['ZIGMAR', 'zigmar']);
+    const DEFAULT_ALIAS = 'Stellon';
+    const DEFAULT_ALIASES = new Set(['Stellon', 'stellon']);
     const current = window.location.pathname || '/';
     const rawPath = current.replace(/^\//, '');
     const effectivePath = rawPath || DEFAULT_ALIAS;
@@ -193,13 +193,17 @@ export default function App() {
               </div>
               <div className="flex-1">
                 <div className="text-[#d9c98f] text-sm">Manufactured By:</div>
-                <div className="text-white/90 text-sm sm:text-base font-semibold">Victor Bio Genetics Private Limited</div>
-                <div className="text-white/90 text-sm sm:text-base">Plot No.3/A,Survey No.35,</div>
-                <div className="text-white/90 text-sm sm:text-base">IDA Cherlapally,Kapra Mandal,</div>
-                <div className="text-white/90 text-sm sm:text-base">Medchal-Malkajgiri District,</div>
-                <div className="text-white/90 text-sm sm:text-base">Hyderabad,Telangana-500051</div>
-                <div className="text-white/90 text-sm sm:text-base">Phone: 9603722045</div>
-                <div className="text-white/90 text-sm sm:text-base">E-mail: victorbiogenetics@gmail.com</div>
+                <div className="text-white/90 text-sm sm:text-base font-semibold">{product?.manufacturer?.name || 'Victor Bio Genetics Private Limited'}</div>
+                {(product?.manufacturer?.address || [
+                  'Plot No.3/A,Survey No.35,',
+                  'IDA Cherlapally,Kapra Mandal,',
+                  'Medchal-Malkajgiri District,',
+                  'Hyderabad,Telangana-500051'
+                ]).map((line, idx) => (
+                  <div key={idx} className="text-white/90 text-sm sm:text-base">{line}</div>
+                ))}
+                <div className="text-white/90 text-sm sm:text-base">Phone: {product?.customerCare?.phone || '9603722045'}</div>
+                <div className="text-white/90 text-sm sm:text-base">E-mail: {product?.customerCare?.email || 'victorbiogenetics@gmail.com'}</div>
               </div>
             </div>
           </StarBorder>
@@ -210,11 +214,15 @@ export default function App() {
               </div>
               <div className="flex-1">
                 <div className="text-[#d9c98f] text-sm">Marketed By:</div>
-                <div className="text-white/90 text-sm sm:text-base font-semibold">Victor Bio Genetics Private Limited</div>
-                <div className="text-white/90 text-sm sm:text-base">Plot No.4/318,Andola Circle,Kellur,</div>
-                <div className="text-white/90 text-sm sm:text-base">Kalaburagi-585303, Karnataka</div>
-                <div className="text-white/90 text-sm sm:text-base">Phone: 9603722045</div>
-                <div className="text-white/90 text-sm sm:text-base">E-mail: victorbiogenetics@gmail.com</div>
+                <div className="text-white/90 text-sm sm:text-base font-semibold">{product?.marketedBy?.name || 'Victor Bio Genetics Private Limited'}</div>
+                {(product?.marketedBy?.address || [
+                  'Plot No.4/318,Andola Circle,Kellur,',
+                  'Kalaburagi-585303, Karnataka'
+                ]).map((line, idx) => (
+                  <div key={idx} className="text-white/90 text-sm sm:text-base">{line}</div>
+                ))}
+                <div className="text-white/90 text-sm sm:text-base">Phone: {product?.customerCare?.phone || '9603722045'}</div>
+                <div className="text-white/90 text-sm sm:text-base">E-mail: {product?.customerCare?.email || 'victorbiogenetics@gmail.com'}</div>
               </div>
             </div>
           </StarBorder>
@@ -225,7 +233,7 @@ export default function App() {
               </div>
               <div className="flex-1">
                 <div className="text-[#d9c98f] text-sm">Customer Care</div>
-                <div className="text-white/90 text-sm sm:text-base">9603722045</div>
+                <div className="text-white/90 text-sm sm:text-base">{product?.customerCare?.phone || '9603722045'}</div>
               </div>
             </div>
           </StarBorder>
