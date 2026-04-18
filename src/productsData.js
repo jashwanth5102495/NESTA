@@ -43,12 +43,40 @@ export const PRODUCTS = [
   {
     brand: 'Arvex',
     displayName: 'Arvex',
-    specification: '',
-    category: '',
-    crops: [],
-    dosage: [],
-    gazette: '',
-    composition: []
+    specification: 'Protein Hydrolysate 20% (Plant Source liquid)',
+    category: 'Protein Hydrolysates and Amino Acids',
+    crops: ['Chickpea'],
+    dosage: ['Two foliar applications at 1500 ml/ha'],
+    gazette: 'S.Q : 3742{E}, Dated : 13.08.2025',
+    composition: [
+      '(i) Total amino acids per cent. by weight, minimum 20',
+      '(ii) Free amino acids per cent. by weight, minimum 20',
+      '(iii) pH (10% aqueous solution) 2.50 ± 0.70',
+      '(iV) Specific gravity 1.20 ± 0.10',
+      '(v) Total organic carbon per cent. by weight, minimum 18',
+      '(vi) Total dissolved solids per cent. by weight, minimum 50',
+      '(vii) Solubility per cent. by weight, minimum 99'
+    ],
+    manufacturer: {
+      name: 'Nesta Crop Solutions Pvt Ltd.',
+      address: [
+        'Gat No 527,Vijay Nagar,Nerli,',
+        'Near to Gokul ShirgaonMIDC, Karveer,',
+        'Kolhapur 416234'
+      ]
+    },
+    marketedBy: {
+      name: 'Nesta Crop Solutions Pvt Ltd.',
+      address: [
+        'Gat No 527,Vijay Nagar,Nerli,',
+        'Near to Gokul ShirgaonMIDC, Karveer,',
+        'Kolhapur 416234'
+      ]
+    },
+    customerCare: {
+      phone: '8989410038',
+      email: 'admin@nestacropsolutions.com'
+    }
   }
 ];
 
