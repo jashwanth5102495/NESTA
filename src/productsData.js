@@ -8,8 +8,11 @@ export const PRODUCTS = [
     category: 'Humic Acid',
     crops: ['Potato', 'Soybean', 'Chilli', 'Cotton', 'Paddy'],
     dosage: [
-      'Chilli- Three foliar applications at 937.5 ml/ha',
-      'Other Crop- Two foliar applications at 625 ml/ha'
+'(i) Soybean Two foliar applications at 625 ml/ha ',
+'(ii) Potato Two foliar applications at 937.5 ml/ha ',
+'(iii) Paddy Two foliar applications at 625 ml/ha ',
+'(iv) Chilli Three foliar applications at 937.5 ml/ha ',
+'(v) Cotton Three foliar applications at 625 ml/ha”'
     ],
     gazette: ' 13th August, 2025 S.O. 3741(E)',
     composition: [
