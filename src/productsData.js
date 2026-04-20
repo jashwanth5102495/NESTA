@@ -47,7 +47,7 @@ export const PRODUCTS = [
     dosage: ['Two foliar applications at 1500 ml/ha'],
     gazette: '13th August, 2025 S.O. 3742(E)',
     composition: [
-      '(i)Protein hydrolysate derived from seeds of Zea mays through hydrolysis by using alkaline protease and hydrochloric acid per cent. by weight, minimum ',
+      '(i)Protein hydrolysate derived from seeds of Zea mays through hydrolysis by using alkaline protease and hydrochloric acid per cent. by weight, minimum 20',
       '(ii) Water per cent. by weight  QS',
       '(iii)Total (per cent.) 100'
     ],
