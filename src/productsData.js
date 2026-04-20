@@ -11,13 +11,11 @@ export const PRODUCTS = [
       'Chilli- Three foliar applications at 937.5 ml/ha',
       'Other Crop- Two foliar applications at 625 ml/ha'
     ],
-    gazette: 'S.Q : 3741[E], Dated : 13.08.2025',
+    gazette: ' 13th August, 2025 S.O. 3741(E)',
     composition: [
-      '(i) Humic acid per cent. by weight, minimum 4',
-      '(ii) pH (1% aqueous solution) 9.5- 11.5',
-      '(iii) Specific gravity 1.0- 1.25',
-      '(iv) Total organic carbon per cent. by weight, minimum 2',
-      '(v) Solubility per cent. by weight, minimum 95'
+'(i) Humic acid (Source: Leonardite) per cent. by weight, minimum 4 ',
+'(ii) Water per cent. by weight, maximum  96', 
+'(iii) Total (per cent.) 100',
     ],
     manufacturer: {
       name: 'Nesta Crop Solutions Pvt Ltd.',
@@ -47,15 +45,11 @@ export const PRODUCTS = [
     category: 'Protein Hydrolysates and Amino Acids',
     crops: ['Chickpea'],
     dosage: ['Two foliar applications at 1500 ml/ha'],
-    gazette: 'S.Q : 3742{E}, Dated : 13.08.2025',
+    gazette: '13th August, 2025 S.O. 3742(E)',
     composition: [
-      '(i) Total amino acids per cent. by weight, minimum 20',
-      '(ii) Free amino acids per cent. by weight, minimum 20',
-      '(iii) pH (10% aqueous solution) 2.50 ± 0.70',
-      '(iV) Specific gravity 1.20 ± 0.10',
-      '(v) Total organic carbon per cent. by weight, minimum 18',
-      '(vi) Total dissolved solids per cent. by weight, minimum 50',
-      '(vii) Solubility per cent. by weight, minimum 99'
+      '(i)Protein hydrolysate derived from seeds of Zea mays through hydrolysis by using alkaline protease and hydrochloric acid per cent. by weight, minimum ',
+      '(ii) Water per cent. by weight  QS',
+      '(iii)Total (per cent.) 100'
     ],
     manufacturer: {
       name: 'Nesta Crop Solutions Pvt Ltd.',
