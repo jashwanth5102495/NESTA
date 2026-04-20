@@ -21,19 +21,16 @@ export const PRODUCTS = [
 '(iii) Total (per cent.) 100',
     ],
     manufacturer: {
-      name: 'Nesta Crop Solutions Pvt Ltd.',
+      name: 'Nesta Crop Solutions Private Limited,',
       address: [
-        'Gat No 527,Vijay Nagar,Nerli,',
-        'Near to Gokul Shirgaon MIDC, Karveer,',
-        'Kolhapur 416234'
+        'Gat No.507, Vijay Nagar, Nerli, Near to Gokul Shirgaon, MIDC, Karveer, Kolhapur, Maharashtra, India - 416234'
       ]
     },
     marketedBy: {
-      name: 'Nesta Crop Solutions Pvt Ltd.',
+      name: 'Nesta Crop Solutions Private Limited.',
       address: [
-        'Gat No 527,Vijay Nagar,Nerli,',
-        'Near to Gokul Shirgaon MIDC, Karveer,',
-        'Kolhapur 416234'
+        'C/o. F.N.Menasinkai, Godown B-3, APMC Yard, Amargol, Hubballi- 580025, Karnataka.',
+        'Consumer Care Cell: Contact at registered office of Nesta Crop Private Limited, Mob. +91 8983410038 E-mail: admin@nestacropsolutions.com'
       ]
     },
     customerCare: {
@@ -55,19 +52,16 @@ export const PRODUCTS = [
       '(iii)Total (per cent.) 100'
     ],
     manufacturer: {
-      name: 'Nesta Crop Solutions Pvt Ltd.',
+      name: 'Nesta Crop Solutions Private Limited,',
       address: [
-        'Gat No 527,Vijay Nagar,Nerli,',
-        'Near to Gokul ShirgaonMIDC, Karveer,',
-        'Kolhapur 416234'
+        'Gat No.507, Vijay Nagar, Nerli, Near to Gokul Shirgaon, MIDC, Karveer, Kolhapur, Maharashtra, India - 416234'
       ]
     },
     marketedBy: {
-      name: 'Nesta Crop Solutions Pvt Ltd.',
+      name: 'Nesta Crop Solutions Private Limited.',
       address: [
-        'Gat No 527,Vijay Nagar,Nerli,',
-        'Near to Gokul ShirgaonMIDC, Karveer,',
-        'Kolhapur 416234'
+        'C/o. F.N.Menasinkai, Godown B-3, APMC Yard, Amargol, Hubballi- 580025, Karnataka.',
+        'Consumer Care Cell: Contact at registered office of Nesta Crop Private Limited, Mob. +91 8983410038 E-mail: admin@nestacropsolutions.com'
       ]
     },
     customerCare: {

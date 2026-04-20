@@ -192,9 +192,29 @@ export default function App() {
                 <span className="text-lg">🏭</span>
               </div>
               <div className="flex-1">
-                <div className="text-[#d9c98f] text-sm">Manufactured & Marketed By:</div>
+                <div className="text-[#d9c98f] text-sm">Manufactured By:</div>
                 <div className="text-white/90 text-sm sm:text-base font-semibold">{product?.manufacturer?.name || 'Victor Bio Genetics Private Limited'}</div>
                 {(product?.manufacturer?.address || [
+                  'Plot No.3/A,Survey No.35,',
+                  'IDA Cherlapally,Kapra Mandal,',
+                  'Medchal-Malkajgiri District,',
+                  'Hyderabad,Telangana-500051'
+                ]).map((line, idx) => (
+                  <div key={idx} className="text-white/90 text-sm sm:text-base">{line}</div>
+                ))}
+              </div>
+            </div>
+          </StarBorder>
+
+          <StarBorder as="div" className="w-full" color="cyan" speed="5s" thickness={2}>
+            <div className="flex items-start">
+              <div className="flex items-center justify-center w-10 h-10 rounded-lg bg-[#e8d8a6]/25 text-[#e8d8a6] mr-3 shadow-inner">
+                <span className="text-lg">🏢</span>
+              </div>
+              <div className="flex-1">
+                <div className="text-[#d9c98f] text-sm">Marketed By:</div>
+                <div className="text-white/90 text-sm sm:text-base font-semibold">{product?.marketedBy?.name || product?.manufacturer?.name || 'Victor Bio Genetics Private Limited'}</div>
+                {(product?.marketedBy?.address || product?.manufacturer?.address || [
                   'Plot No.3/A,Survey No.35,',
                   'IDA Cherlapally,Kapra Mandal,',
                   'Medchal-Malkajgiri District,',
