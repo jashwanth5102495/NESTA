@@ -68,14 +68,46 @@ export const PRODUCTS = [
       phone: '8989410038',
       email: 'admin@nestacropsolutions.com'
     }
+  },
+
+  {
+    brand: 'orvin',
+    displayName: 'orvin',
+    specification: 'Protein Hydrolysate 20% (Plant Source liquid)',
+    category: '',
+    crops: [''],
+    dosage: [''],
+    gazette: '',
+    composition: [
+      
+    ],
+    manufacturer: {
+      name: 'Nesta Crop Solutions Private Limited,',
+      address: [
+        'Gat No.507, Vijay Nagar, Nerli, Near to Gokul Shirgaon, MIDC, Karveer, Kolhapur, Maharashtra, India - 416234'
+      ]
+    },
+    marketedBy: {
+      name: 'Nesta Crop Solutions Private Limited.',
+      address: [
+        'C/o. F.N.Menasinkai, Godown B-3, APMC Yard, Amargol, Hubballi- 580025, Karnataka.',
+        'Consumer Care Cell: Contact at registered office of Nesta Crop Private Limited, Mob. +91 8983410038 E-mail: admin@nestacropsolutions.com'
+      ]
+    },
+    customerCare: {
+      phone: '8989410038',
+      email: 'admin@nestacropsolutions.com'
+    }
   }
+
 ];
 
 export const SLUG_TO_BRAND = {
   'Stellon': 'Stellon',
   'stellon': 'Stellon',
   'Arvex': 'Arvex',
-  'arvex': 'Arvex'
+  'arvex': 'Arvex',
+  'orvin': 'orvin'
 };
 
 function normalizeBrandKey(value) {
